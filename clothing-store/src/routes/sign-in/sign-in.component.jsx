@@ -8,6 +8,8 @@ import {
   // signInWithGoogleRedirect,
 } from "../../utils/firebase/firebase.utils";
 
+import SignUpForm from "../../components/sign-up-form/sign-up-form.component";
+
 const SignIn = () => {
   // useEffect(() => {
   //   // declare the data fetching function
@@ -42,6 +44,7 @@ const SignIn = () => {
       {/* <button onClick={signInWithGoogleRedirect}>
         sign in with google redirect
       </button> */}
+      <SignUpForm />
     </div>
   );
 };
